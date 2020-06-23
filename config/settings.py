@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'sass_processor',
     'tweet',
     'user',
     'crispy_forms',
@@ -127,5 +128,7 @@ MEDIA_URL = '/images/'
 STATICFILES_ROOT = (
     os.path.join(BASE_DIR, "static"),
 )
+
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
